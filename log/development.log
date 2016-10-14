@@ -1,0 +1,14 @@
+
+
+Started GET "/" for 70.50.214.12 at 2016-10-14 20:45:18 +0000
+Cannot render console from 70.50.214.12! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/templates/rails/welcome/index.html.erb (10.2ms)
+Completed 200 OK in 76ms (Views: 55.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 70.50.214.12 at 2016-10-14 20:46:00 +0000
+Cannot render console from 70.50.214.12! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
