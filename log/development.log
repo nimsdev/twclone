@@ -1955,3 +1955,734 @@ Migrating to AddUsernameToUsers (20161015163312)
             FROM sqlite_temp_master
             WHERE name='index_users_on_email' AND type='index'
 [0m
+
+
+Started GET "/users/sign_up" for 70.50.135.197 at 2016-10-15 17:01:42 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+ActionController::RoutingError (undefined method `devise_controller?' for ApplicationController:Class):
+  app/controllers/application_controller.rb:8:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (48.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (192.1ms)
+
+
+Started GET "/users/sign_up" for 70.50.135.197 at 2016-10-15 17:02:06 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (undefined method `devise_controller?' for ApplicationController:Class):
+  app/controllers/application_controller.rb:8:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (144.0ms)
+
+
+Started GET "/" for 70.50.135.197 at 2016-10-15 17:02:45 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (undefined method `devise_controller?' for ApplicationController:Class):
+  app/controllers/application_controller.rb:8:in `<class:ApplicationController>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/pages_controller.rb:3:in `<top (required)>'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (35.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (32.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (280.3ms)
+
+
+Started GET "/" for 70.50.135.197 at 2016-10-15 17:03:15 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_nav_guest.html.erb (2.5ms)
+  Rendered layouts/_nav.html.erb (14.1ms)
+Completed 200 OK in 710ms (Views: 698.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0bf4e857a9ceb36053d8f2b8cc36b816291ac61aa7d30b345966db301ba08c80.css?body=1" for 70.50.135.197 at 2016-10-15 17:03:15 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 70.50.135.197 at 2016-10-15 17:03:16 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for 70.50.135.197 at 2016-10-15 17:03:16 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for 70.50.135.197 at 2016-10-15 17:03:16 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for 70.50.135.197 at 2016-10-15 17:03:16 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for 70.50.135.197 at 2016-10-15 17:03:16 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for 70.50.135.197 at 2016-10-15 17:03:16 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for 70.50.135.197 at 2016-10-15 17:03:16 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for 70.50.135.197 at 2016-10-15 17:03:16 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for 70.50.135.197 at 2016-10-15 17:03:16 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for 70.50.135.197 at 2016-10-15 17:03:16 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for 70.50.135.197 at 2016-10-15 17:03:16 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for 70.50.135.197 at 2016-10-15 17:03:16 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for 70.50.135.197 at 2016-10-15 17:03:16 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 70.50.135.197 at 2016-10-15 17:03:16 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 70.50.135.197 at 2016-10-15 17:03:16 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 70.50.135.197 at 2016-10-15 17:03:16 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 70.50.135.197 at 2016-10-15 17:03:16 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 70.50.135.197 at 2016-10-15 17:03:16 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/sign_up" for 70.50.135.197 at 2016-10-15 17:03:19 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `devise_parameter_sanitezer' for #<Devise::RegistrationsController:0x007f0bfc123298>
+Did you mean?  devise_parameter_sanitizer):
+  app/controllers/application_controller.rb:13:in `configure_permitted_parameters'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (125.5ms)
+
+
+Started GET "/" for 70.50.135.197 at 2016-10-15 17:04:05 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav_guest.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (2.7ms)
+Completed 200 OK in 192ms (Views: 186.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 70.50.135.197 at 2016-10-15 17:04:08 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+ArgumentError (wrong number of arguments (given 0, expected 2)):
+  app/controllers/application_controller.rb:13:in `configure_permitted_parameters'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (115.0ms)
+
+
+Started GET "/" for 70.50.135.197 at 2016-10-15 17:04:53 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav_guest.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (3.0ms)
+Completed 200 OK in 118ms (Views: 108.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 70.50.135.197 at 2016-10-15 17:04:55 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `for' for #<Devise::ParameterSanitizer:0x007f0bf407fbf0>
+Did you mean?  fork):
+  app/controllers/application_controller.rb:13:in `configure_permitted_parameters'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (126.3ms)
+
+
+Started GET "/" for 70.50.135.197 at 2016-10-15 17:10:02 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav_guest.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (4.3ms)
+Completed 200 OK in 147ms (Views: 141.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 70.50.135.197 at 2016-10-15 17:10:04 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `for' for #<Devise::ParameterSanitizer:0x007f0bfc5e3d28>
+Did you mean?  fork):
+  app/controllers/application_controller.rb:13:in `configure_permitted_parameters'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (155.2ms)
+
+
+Started GET "/users/sign_up" for 70.50.135.197 at 2016-10-15 17:10:30 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `for' for #<Devise::ParameterSanitizer:0x007f0c0dc68b38>
+Did you mean?  fork):
+  app/controllers/application_controller.rb:13:in `configure_permitted_parameters'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (21.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (199.4ms)
+
+
+Started GET "/users/sign_up" for 70.50.135.197 at 2016-10-15 17:11:16 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `for' for #<Devise::ParameterSanitizer:0x007f0bfc8735e8>
+Did you mean?  fork):
+  app/controllers/application_controller.rb:13:in `configure_permitted_parameters'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (105.8ms)
+
+
+Started GET "/users/sign_up" for 70.50.135.197 at 2016-10-15 17:11:19 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `for' for #<Devise::ParameterSanitizer:0x007f0bf808e890>
+Did you mean?  fork):
+  app/controllers/application_controller.rb:13:in `configure_permitted_parameters'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (119.8ms)
+
+
+Started GET "/" for 70.50.135.197 at 2016-10-15 17:12:16 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (10.7ms)
+  Rendered layouts/_nav_guest.html.erb (1.4ms)
+  Rendered layouts/_nav.html.erb (18.1ms)
+Completed 200 OK in 595ms (Views: 568.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 70.50.135.197 at 2016-10-15 17:12:19 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `for' for #<Devise::ParameterSanitizer:0x007f97fd1e9c30>
+Did you mean?  fork):
+  app/controllers/application_controller.rb:13:in `configure_permitted_parameters'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (99.4ms)
+
+
+Started GET "/" for 70.50.135.197 at 2016-10-15 17:13:52 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav_guest.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.4ms)
+Completed 200 OK in 120ms (Views: 110.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 70.50.135.197 at 2016-10-15 17:13:55 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (6.9ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (121.0ms)
+  Rendered layouts/_nav_guest.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (3.1ms)
+Completed 200 OK in 268ms (Views: 242.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 70.50.135.197 at 2016-10-15 17:14:30 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav_guest.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (5.0ms)
+Completed 200 OK in 143ms (Views: 141.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 70.50.135.197 at 2016-10-15 17:14:33 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.6ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (15.8ms)
+  Rendered layouts/_nav_guest.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (3.9ms)
+Completed 200 OK in 174ms (Views: 173.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 70.50.135.197 at 2016-10-15 17:15:24 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav_guest.html.erb (1.7ms)
+  Rendered layouts/_nav.html.erb (4.6ms)
+Completed 200 OK in 152ms (Views: 150.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 70.50.135.197 at 2016-10-15 17:15:29 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/registrations/new.html.erb within layouts/application (70.9ms)
+Completed 500 Internal Server Error in 85ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `username_field' for #<ActionView::Helpers::FormBuilder:0x007f97fce8d488>):
+     5: 
+     6:   <div class="field">
+     7:     <%= f.label :username %><br>
+     8:     <%= f.username_field :username, autofocus: true %>
+     9:   </div>
+    10: 
+    11:   <div class="field">
+  app/views/devise/registrations/new.html.erb:8:in `block in _app_views_devise_registrations_new_html_erb__4358359017200571598_70145380237200'
+  app/views/devise/registrations/new.html.erb:3:in `_app_views_devise_registrations_new_html_erb__4358359017200571598_70145380237200'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (137.3ms)
+
+
+Started GET "/users/sign_up" for 70.50.135.197 at 2016-10-15 17:15:42 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/registrations/new.html.erb within layouts/application (47.4ms)
+Completed 500 Internal Server Error in 57ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `username_field' for #<ActionView::Helpers::FormBuilder:0x007f97fe34f3f8>):
+     5: 
+     6:   <div class="field">
+     7:     <%= f.label :username %><br>
+     8:     <%= f.username_field :username, autofocus: true %>
+     9:   </div>
+    10: 
+    11:   <div class="field">
+  app/views/devise/registrations/new.html.erb:8:in `block in _app_views_devise_registrations_new_html_erb__4358359017200571598_70145380237200'
+  app/views/devise/registrations/new.html.erb:3:in `_app_views_devise_registrations_new_html_erb__4358359017200571598_70145380237200'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (37.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (137.8ms)
+
+
+Started GET "/users/sign_in" for 70.50.135.197 at 2016-10-15 17:16:06 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (7.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (25.8ms)
+  Rendered layouts/_nav_guest.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.2ms)
+Completed 200 OK in 133ms (Views: 131.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 70.50.135.197 at 2016-10-15 17:16:12 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/registrations/new.html.erb within layouts/application (45.4ms)
+Completed 500 Internal Server Error in 56ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `username_field' for #<ActionView::Helpers::FormBuilder:0x007f97fdb43d58>):
+     5: 
+     6:   <div class="field">
+     7:     <%= f.label :username %><br>
+     8:     <%= f.username_field :username, autofocus: true %>
+     9:   </div>
+    10: 
+    11:   <div class="field">
+  app/views/devise/registrations/new.html.erb:8:in `block in _app_views_devise_registrations_new_html_erb__4358359017200571598_70145380237200'
+  app/views/devise/registrations/new.html.erb:3:in `_app_views_devise_registrations_new_html_erb__4358359017200571598_70145380237200'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (23.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (115.8ms)
+
+
+Started GET "/users/sign_in" for 70.50.135.197 at 2016-10-15 17:16:41 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (12.5ms)
+  Rendered layouts/_nav_guest.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.3ms)
+Completed 200 OK in 113ms (Views: 111.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 70.50.135.197 at 2016-10-15 17:16:43 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (8.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (18.3ms)
+  Rendered layouts/_nav_guest.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.3ms)
+Completed 200 OK in 115ms (Views: 112.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 70.50.135.197 at 2016-10-15 17:16:45 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/registrations/new.html.erb within layouts/application (38.9ms)
+Completed 500 Internal Server Error in 48ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `username_field' for #<ActionView::Helpers::FormBuilder:0x000000015d07e0>):
+     5: 
+     6:   <div class="field">
+     7:     <%= f.label :username %><br>
+     8:     <%= f.username_field :username, autofocus: true %>
+     9:   </div>
+    10: 
+    11:   <div class="field">
+  app/views/devise/registrations/new.html.erb:8:in `block in _app_views_devise_registrations_new_html_erb__4358359017200571598_17225000'
+  app/views/devise/registrations/new.html.erb:3:in `_app_views_devise_registrations_new_html_erb__4358359017200571598_17225000'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (15.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (101.3ms)
+
+
+Started GET "/users/sign_in" for 70.50.135.197 at 2016-10-15 17:17:42 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (8.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (34.9ms)
+  Rendered layouts/_nav_guest.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (5.2ms)
+Completed 200 OK in 224ms (Views: 220.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 70.50.135.197 at 2016-10-15 17:17:45 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (6.9ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (21.2ms)
+  Rendered layouts/_nav_guest.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.3ms)
+Completed 200 OK in 248ms (Views: 246.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 70.50.135.197 at 2016-10-15 17:18:01 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (11.3ms)
+  Rendered layouts/_nav_guest.html.erb (0.2ms)
+  Rendered layouts/_nav.html.erb (2.2ms)
+Completed 200 OK in 133ms (Views: 132.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 70.50.135.197 at 2016-10-15 17:18:02 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.7ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (11.6ms)
+  Rendered layouts/_nav_guest.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (2.6ms)
+Completed 200 OK in 113ms (Views: 111.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 70.50.135.197 at 2016-10-15 17:18:03 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (10.6ms)
+  Rendered layouts/_nav_guest.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (2.1ms)
+Completed 200 OK in 129ms (Views: 126.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 70.50.135.197 at 2016-10-15 17:18:18 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/registrations/new.html.erb within layouts/application (61.9ms)
+Completed 500 Internal Server Error in 73ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined method `username_field' for #<ActionView::Helpers::FormBuilder:0x0000000173bb20>):
+     5: 
+     6:   <div class="field">
+     7:     <%= f.label :username %><br>
+     8:     <%= f.username_field :username, autofocus: true %>
+     9:   </div>
+    10: 
+    11:   <div class="field">
+  app/views/devise/registrations/new.html.erb:8:in `block in _app_views_devise_registrations_new_html_erb__4358359017200571598_17738020'
+  app/views/devise/registrations/new.html.erb:3:in `_app_views_devise_registrations_new_html_erb__4358359017200571598_17738020'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.6ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (125.7ms)
+
+
+Started GET "/users/sign_up" for 70.50.135.197 at 2016-10-15 17:18:42 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (8.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (24.1ms)
+  Rendered layouts/_nav_guest.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (2.4ms)
+Completed 200 OK in 143ms (Views: 140.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 70.50.135.197 at 2016-10-15 17:18:55 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ba5a/VNSGsff7XxDV1g9HjEmRKcVPonOVLDfa1k6h3nMaa+a4OkXN3VcnKQIFU0cKULTNN3WMibCDTe/ORvn7Q==", "user"=>{"username"=>"billton", "email"=>"billtonnumba1@bilton.co", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mUser Exists (0.6ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'billtonnumba1@bilton.co' LIMIT 1[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "users" ("username", "email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["username", "billton"], ["email", "billtonnumba1@bilton.co"], ["encrypted_password", "$2a$11$8Fyy0zHu8pRFrQC0KNV0W.qL6VCtaRYajjh2Lk25h/bu37UjqWi.W"], ["created_at", "2016-10-15 17:18:56.156631"], ["updated_at", "2016-10-15 17:18:56.156631"]]
+  [1m[36m (12.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_sign_in_at", "2016-10-15 17:18:56.175959"], ["current_sign_in_at", "2016-10-15 17:18:56.175959"], ["last_sign_in_ip", "70.50.135.197"], ["current_sign_in_ip", "70.50.135.197"], ["sign_in_count", 1], ["updated_at", "2016-10-15 17:18:56.178882"], ["id", 5]]
+  [1m[35m (10.7ms)[0m  commit transaction
+Redirected to https://twclone-nimsdev.c9users.io/
+Completed 302 Found in 348ms (ActiveRecord: 25.2ms)
+
+
+Started GET "/" for 70.50.135.197 at 2016-10-15 17:18:56 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered layouts/_nav_user.html.erb (1.6ms)
+  Rendered layouts/_nav.html.erb (7.4ms)
+Completed 200 OK in 120ms (Views: 118.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/sign_up" for 70.50.135.197 at 2016-10-15 17:19:37 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+Redirected to https://twclone-nimsdev.c9users.io/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 70.50.135.197 at 2016-10-15 17:19:37 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered layouts/_nav_user.html.erb (1.3ms)
+  Rendered layouts/_nav.html.erb (8.4ms)
+Completed 200 OK in 160ms (Views: 158.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/sign_up" for 70.50.135.197 at 2016-10-15 17:19:49 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+Redirected to https://twclone-nimsdev.c9users.io/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 4ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 70.50.135.197 at 2016-10-15 17:19:49 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered layouts/_nav_user.html.erb (1.5ms)
+  Rendered layouts/_nav.html.erb (6.1ms)
+Completed 200 OK in 119ms (Views: 117.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/sign_up" for 70.50.135.197 at 2016-10-15 17:22:06 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+Redirected to https://twclone-nimsdev.c9users.io/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 70.50.135.197 at 2016-10-15 17:22:06 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered layouts/_nav_user.html.erb (0.7ms)
+  Rendered layouts/_nav.html.erb (5.6ms)
+Completed 200 OK in 152ms (Views: 150.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 70.50.135.197 at 2016-10-15 17:22:08 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (5.0ms)
+Completed 200 OK in 125ms (Views: 124.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 70.50.135.197 at 2016-10-15 17:22:10 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  Rendered layouts/_nav_user.html.erb (0.6ms)
+  Rendered layouts/_nav.html.erb (8.5ms)
+Completed 200 OK in 130ms (Views: 128.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 70.50.135.197 at 2016-10-15 17:22:12 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  Rendered layouts/_nav_user.html.erb (0.4ms)
+  Rendered layouts/_nav.html.erb (3.4ms)
+Completed 200 OK in 118ms (Views: 116.8ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/users/sign_out" for 70.50.135.197 at 2016-10-15 17:22:14 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"2tXfG4Z5zMijQbcuDlJt5yYXBSle/A9EXu5oOMlK0RETEip8NcLBOAnwV8lRHx3lPnOSupYUtKzIU4DsqWuxhQ=="}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to https://twclone-nimsdev.c9users.io/
+Completed 302 Found in 40ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 70.50.135.197 at 2016-10-15 17:22:14 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav_guest.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (2.7ms)
+Completed 200 OK in 114ms (Views: 113.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 70.50.135.197 at 2016-10-15 17:22:19 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (7.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (16.8ms)
+  Rendered layouts/_nav_guest.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (1.8ms)
+Completed 200 OK in 131ms (Views: 129.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 70.50.135.197 at 2016-10-15 17:22:38 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"r/ODWSHVgA7J6UkvIjo84KXTyELUDxwASqUMzIzedPNuww8NlNQxOicFpodtrqCX6SqGeN0uHlB5YEwUxYV7UQ==", "user"=>{"username"=>"lilly", "email"=>"lilli@irurehtiuhertih.ca", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'lilli@irurehtiuhertih.ca' LIMIT 1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("username", "email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["username", "lilly"], ["email", "lilli@irurehtiuhertih.ca"], ["encrypted_password", "$2a$11$hip7nCiJsxD9SUXGz5kbCuWbzIImdACvEK9t2u2rIi6iSuaHLIDM2"], ["created_at", "2016-10-15 17:22:38.775759"], ["updated_at", "2016-10-15 17:22:38.775759"]]
+  [1m[36m (18.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_sign_in_at", "2016-10-15 17:22:38.798469"], ["current_sign_in_at", "2016-10-15 17:22:38.798469"], ["last_sign_in_ip", "70.50.135.197"], ["current_sign_in_ip", "70.50.135.197"], ["sign_in_count", 1], ["updated_at", "2016-10-15 17:22:38.799987"], ["id", 6]]
+  [1m[35m (14.3ms)[0m  commit transaction
+Redirected to https://twclone-nimsdev.c9users.io/
+Completed 302 Found in 210ms (ActiveRecord: 34.7ms)
+
+
+Started GET "/" for 70.50.135.197 at 2016-10-15 17:22:38 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (0.5ms)
+  Rendered layouts/_nav.html.erb (4.5ms)
+Completed 200 OK in 126ms (Views: 125.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/home" for 70.50.135.197 at 2016-10-15 17:22:41 +0000
+Cannot render console from 70.50.135.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 6]]
+  Rendered layouts/_nav_user.html.erb (0.3ms)
+  Rendered layouts/_nav.html.erb (4.8ms)
+Completed 200 OK in 119ms (Views: 118.3ms | ActiveRecord: 0.2ms)
