@@ -1,2 +1,91 @@
-<h1>Pages#index</h1>
-<p>Find me in app/views/pages/index.html.erb</p>
+<% if !user_signed_in? %>
+   <style>
+           body{
+           background: url(https://hd.unsplash.com/photo-1471017851983-fc49d89c57c2)100% 100% fixed;
+           background: url(https://hd.unsplash.com/photo-1445205170230-053b83016050)100% 100% fixed;
+           background-repeat:no-repeat;
+           background-position:center center;
+           -webkit-background-size:100% 100%;
+           -moz-background-size:100% 100%;
+           -o-background-size:100% 100%;
+           color:white;
+           font-size:14pt;
+        }
+       
+       .container-index {
+           margin-right:15%;
+           margin-left:15%;
+           top:45px;
+           font-weight:300 !important;
+           letter-spacing:2px;
+       }
+       
+       h2 {
+           font-weight:300 !important;
+           letter-spacing:2px;
+       }
+       
+       
+       .log-in {
+           float:right;
+           width:250px;
+           height:150px;
+           color:#333;
+       }
+       
+        .sign-up {
+           float:right;
+           width:250px;
+           height:250px;
+           color:#333;
+       }
+       
+       .footerlinks p{
+           text-align:center;
+           font-size:10pt;
+           margin-left:20px;
+           margin-right:20px;
+           display:inline-block;
+           
+       }
+       
+       .footerlinks{
+           margin-top:200px;
+       }
+       
+   </style>
+        <body>
+            <div class="container-index row">
+                <div class="col-sm-6">
+                <h2>Welcome to Fleeko</h2><br>
+                
+                <p>Connect with people in style...literally!<br><br>
+                Find and follow people that share the same fashion
+                interests as you; inspire others with your own personal style<br>
+                </p>
+                </div> <!-- col -->
+                
+            <div class="col-sm-6">    
+            <div class="log-in panel row">
+                log in
+            </div>   
+            
+              <div class="sign-up panel row">
+                sign up
+            </div>  
+            </div>    
+                
+            <div class="footerlinks">
+                <p>About</p> 
+                <p>Contact</p> 
+                <p>Help</p> 
+                <p>FAQ</p> 
+            </div>    
+            </container>
+            </body>
+            
+<% else %>  
+    
+    whaddup bitch
+
+<% end %>    
