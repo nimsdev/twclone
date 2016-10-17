@@ -16,8 +16,8 @@
 @import "bootstrap";
 
 body {
-    background-color:#eaeaea;
     background-color:rgba(232,226,222,.4);
+    background-color:#fffbf6;
 }
 
 .navbar {
@@ -27,4 +27,37 @@ body {
 .navbar-brand {
     position:absolute;
     left:50%;
+    display:block;
+}
+
+.post-panel {
+    margin-top:-21px;
+    border-radius:0;
+    border-color:#efefef;
+}
+
+.post-title{
+    text-align:left;
+    margin-left:20px;
+}  
+
+.post-content{
+    text-align:left;
+    margin-top:-10px;
+    // margin-left:20px;
+}
+
+.post-links{
+    text-align:left;
+    margin-top:-10px;
+    // margin-left:20px;
+}
+
+a.posted-user {
+    color:#ff406d;
+    text-decoration:none;
+}
+
+a.posted-user:hover{
+    text-decoration:underline;
 }
