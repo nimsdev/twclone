@@ -49,15 +49,35 @@ body {
 
 .post-links{
     text-align:left;
-    margin-top:-10px;
+    margin-top:-5px;
+    margin-bottom:-5px;
     // margin-left:20px;
 }
 
 a.posted-user {
-    color:#ff406d;
+    color:#c2c278;
+    font-weight:bold;
     text-decoration:none;
+    letter-spacing:2px;
 }
 
 a.posted-user:hover{
     text-decoration:underline;
+}
+
+.g-links {
+    text-align:left;
+    margin-right:75px;
+    color:#dadaad;
+    opacity:0.4;
+}
+
+.postforming {
+    margin-top:21px;
+    margin-bottom:-25px;
+}
+
+.backtotop{
+    margin-top:-21px;
+    text-align:center;
 }

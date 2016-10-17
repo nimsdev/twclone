@@ -20,21 +20,33 @@
               <img src="/icon.png" style="width:35px;height:35px;">
             </div>
             <div class="col-sm-11">
-             <p class="post-titles"><a class="posted-user" href=""><%= User.find(@p.user_id).username %></a> - <%= @p.created_at.to_formatted_s(:short) %></p>
+             <p class="post-titles"><a class="posted-user" href=""><%= User.find(@p.user_id).username %></a><span style="opacity:0.4;">- <%= @p.created_at.to_formatted_s(:short) %></span></p>
              <p class="post-content"><%= @p.content %></p>
-            </div>
-            
-            <div class="col-sm-12">
-              <p class="post-links">links</p>
+           
+              <p class="post-links">
+              <span class="glyphicon glyphicon-comment g-links" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-retweet g-links" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-heart g-links" aria-hidden="true"></span>
+                <span class="glyphicon glyphicon-option-horizontal g-links" aria-hidden="true"></span>
+                <!--<a href="">View Convo</a>-->
+              </p>
             </div>
          </div>
+         
       </div>
       <% end %>
+      <div class="backtotop">
+      <div class="panel panel-default" style="border-color:#efefef;">
+         <div class="panel-body" >
+            <p>back to the top</p>
+         </div>
+      </div>
+      </div>
    </div>
    <div class="col-xs-3">
       <div class="panel panel-default">
          <div class="panel-body">
-            <p>about</p>
+            <p>right panel</p>
          </div>
       </div>
    </div>
